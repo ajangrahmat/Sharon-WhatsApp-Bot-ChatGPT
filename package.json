@@ -1,0 +1,51 @@
+{
+  "name": "Sharon-WA-Core",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot OpenAI Using Lib Baileys Multi Device",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp-openai",
+    "whatsapp-openai",
+    "whatsapp-bot",
+    "whatsapp-baileys",
+    "baileys-md",
+    "bot-wa",
+    "bot-md",
+    "whatsapp-multi-device"
+  ],
+  "base": "https://github.com/DikaArdnt/Hisoka-Morou",
+  "author": "Ajang Rahmat",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "4.4.0",
+    "awesome-phonenumber": "^2.64.0",
+    "chalk": "^4.1.2",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "figlet": "^1.5.2",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.21",
+    "openai": "^3.1.0",
+    "pino": "^7.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.5.4",
+    "util": "^0.12.4"
+  },
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sansekai/Wa-OpenAI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sansekai/Wa-OpenAI/issues"
+  },
+  "homepage": "https://github.com/Sansekai/Wa-OpenAI#readme"
+}
