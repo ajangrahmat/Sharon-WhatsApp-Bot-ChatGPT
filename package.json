@@ -1,32 +1,18 @@
 {
-  "name": "sharon-wa-core",
+  "name": "wabot-chatgpt",
   "version": "1.0.0",
-  "description": "Simple WhatsApp Bot Multi Device with baileys",
+  "description": "",
   "main": "sharon.js",
-  "type": "commonjs",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node sharon.js"
   },
-  "keywords": [
-    "sharon wa bot",
-    "whatsapp bot",
-    "whatsapp bot multi device",
-    "whatsapp app bot baileys",
-    "baileys"
-  ],
-  "author": "Ajang Rahmat",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "4.4.0",
-    "chalk": "^4.1.2",
+    "@adiwajshing/baileys": "^4.4.0",
+    "openai": "^3.1.0",
     "qrcode-terminal": "^0.12.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ajangrahmat/Sharon-WA-Core.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ajangrahmat/Sharon-WA-Core/issues"
-  },
-  "homepage": "https://github.com/ajangrahmat/Sharon-WA-Core#readme"
+  }
 }
